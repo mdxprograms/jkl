@@ -1,0 +1,5 @@
+modules:
+  Nav:
+    selector: ".nav"
+  Footer:
+    selector: ".footer"

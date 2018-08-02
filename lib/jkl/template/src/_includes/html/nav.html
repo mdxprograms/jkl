@@ -1,0 +1,7 @@
+<nav class="nav">
+  <div class="links">
+    {%- for item in site.data.content.links -%}
+      <a class="blue-text" href="{{item.link}}">{{item.text}}</a>
+    {%- endfor -%}
+  </div>
+</nav>

@@ -1,0 +1,9 @@
+{% assign colors = site.data.css.colors %}
+
+.black-text {
+  color: {{colors.black}};
+}
+
+.blue-text {
+  color: {{colors.blue}};
+}
